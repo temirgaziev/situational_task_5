@@ -1,18 +1,18 @@
-# Innovatech VR Pro Web Application
+# TechWave Inc. Web Application
 
-This web application is developed for Innovatech to introduce and pre-order their new product, Innovatech VR Pro. The application includes various features such as a product page, order form, news feed, and contact information.
+TechWave Inc. is at the forefront of developing innovative technology solutions. Our latest product, TechWave XR, delivers an immersive augmented reality experience for users
 
 ## Screenshots
 
-- ![screen](https://github.com/temirgaziev/situational_task_5/blob/main/src/screens/18.png)
-- ![screen](https://github.com/temirgaziev/situational_task_5/blob/main/src/screens/23.png)
-- ![screen](https://github.com/temirgaziev/situational_task_5/blob/main/src/screens/27.png)
+- ![screen](https://github.com/temirgaziev/situational_task_5/blob/main/src/screens/21.png)
+- ![screen](https://github.com/temirgaziev/situational_task_5/blob/main/src/screens/22.png)
+- ![screen](https://github.com/temirgaziev/situational_task_5/blob/main/src/screens/29.png)
 - ![screen](https://github.com/temirgaziev/situational_task_5/blob/main/src/screens/33.png)
-- ![screen](https://github.com/temirgaziev/situational_task_5/blob/main/src/screens/57.png)
+- ![screen](https://github.com/temirgaziev/situational_task_5/blob/main/src/screens/41.png)
 
 ## Video Description
 
-- [Video Link](https://drive.google.com/file/d/1Q1k4QhsAu5SWw22BVdBfq9w4r-Ursen_/view?usp=sharing)
+- [Video Link](https://drive.google.com/file/d/1BGSRrg6zSzCqF8oEuoEdxdATO18Bz1AE/view?usp=sharing)
 
 ## Project Structure
 
