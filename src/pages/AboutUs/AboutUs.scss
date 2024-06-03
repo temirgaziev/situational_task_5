@@ -1,45 +1,64 @@
-/* src/AboutUs.css */
-
 .about-us-layout {
-  background: #f0f2f5;
-  padding: 50px 20px;
+  background-color: #f0f2f5;
+  padding: 40px 0;
 }
 
 .about-us-content {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .about-us-section {
   margin-bottom: 40px;
 }
 
-.about-us-title,
-.about-us-subtitle {
+.about-us-title {
   text-align: center;
-  color: #1890ff;
+  color: #1a1a1a;
+  margin-bottom: 20px;
 }
 
 .about-us-text {
   text-align: center;
   font-size: 18px;
+  color: #595959;
 }
 
-.about-us-card,
-.about-us-team-card {
+.about-us-card {
   text-align: center;
+  background-color: #fff;
   border-radius: 8px;
-  overflow: hidden;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .about-us-icon {
-  font-size: 48px;
+  font-size: 40px;
   color: #1890ff;
+  margin-bottom: 16px;
+}
+
+.about-us-subtitle {
+  text-align: center;
+  color: #1a1a1a;
   margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
-  .about-us-layout {
-    padding: 30px 10px;
-  }
+.about-us-team-card {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-team-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.about-us-team-card .ant-card-meta {
+  padding: 16px;
+  text-align: center;
 }

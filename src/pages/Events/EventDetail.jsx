@@ -118,13 +118,14 @@ const ProductDetail = () => {
           <Col xs={24}>
             <Title level={3}>Watch Video</Title>
             <iframe
-              width="80%"
-              height="450"
-              src={product.video}
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/kzKpwZt2LtY?si=Hk_PzAV5-ljP3oy1"
               title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
             ></iframe>
           </Col>
         </Row>

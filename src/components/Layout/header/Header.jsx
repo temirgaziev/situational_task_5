@@ -31,9 +31,11 @@ const InnovatechHeader = () => {
           <Link to="/contact">Contact</Link>
         </Menu.Item>
       </Menu>
-      <Button type="primary" className="pre-order-button">
-        <Link to="/product-detail">Pre-order</Link>
-      </Button>
+      <Link to="/product-detail">
+        <Button type="primary" className="pre-order-button">
+          Pre-order
+        </Button>
+      </Link>
       <MenuOutlined className="mobile-menu-icon" />
     </Header>
   );

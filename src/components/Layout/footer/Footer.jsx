@@ -27,11 +27,12 @@ const InnovatechFooter = () => {
               transition={{ duration: 0.5 }}
             >
               <Title level={4} style={{ color: 'white' }} className="footer-title">
-                Innovatech Solutions
+                TechWave Inc
               </Title>
               <Text className="footer-text">
-                Innovatech Solutions is a cutting-edge technology company specializing in developing
-                and selling advanced gadgets and devices.
+                TechWave Inc. is at the forefront of developing innovative technology solutions. Our
+                latest product, TechWave XR, delivers an immersive augmented reality experience for
+                users.
               </Text>
             </motion.div>
           </Col>

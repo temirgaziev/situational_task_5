@@ -48,8 +48,8 @@ const ContactPage = () => {
             </Card>
           </Col>
         </Row>
-        <div className="map-container">
-          <Image src="https://i.ibb.co/ZXhyZQx/2024-06-01-21-58-41.png" />
+        <div style={{ marginTop: '50px' }} className="map-container">
+          <Image src="https://i.ibb.co/DpBHmqP/2024-06-03-13-26-54.png" />
         </div>
       </Content>
     </Layout>

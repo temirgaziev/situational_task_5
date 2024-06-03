@@ -1,5 +1,3 @@
-// src/AboutUs.js
-
 import React from 'react';
 import { Layout, Row, Col, Typography, Card, Avatar } from 'antd';
 import { TeamOutlined, RocketOutlined, HeartOutlined } from '@ant-design/icons';
@@ -12,22 +10,22 @@ const { Content } = Layout;
 
 const teamMembers = [
   {
-    name: 'John Doe',
+    name: 'Patrak Brown',
     position: 'CEO',
     avatar:
-      'https://s3.amazonaws.com/media.mixrank.com/profilepic/fec0684d2748e607f9a91466226b11d2',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjnBkRtfdwvYiUJ9xl7ANI50Fz91NfLtX3oL5reaZHAJSWOaw4yqnbYGc7lfhPEYeiEKQ&usqp=CAU',
   },
   {
-    name: 'Jane Smith',
+    name: 'David Wilson',
     position: 'CTO',
     avatar:
-      'https://s3.amazonaws.com/media.mixrank.com/profilepic/a34b2e416246da36059f4619b835ea67',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSPL4mMkYopHvOZ71givs_hXUhsf0hZT1EHtaTPSKv9AScK567mqSl_fr0KOYnGPRkrbI&usqp=CAU',
   },
   {
-    name: 'Mike Johnson',
+    name: 'Emma Davis',
     position: 'COO',
     avatar:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwYRqw11RNzH6X5sjEfW6cS5J8wZ4bIsBClSokVG38A_6eqgpq1UHghxo4c6Vb_-rvKK0&usqp=CAU',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxjdjZ43uMn_DqUpvQkOVmcwk1YFDcbmbe53g56JX_Gz8r_wXW6_Fc8fIaaCot69YO-Uc&usqp=CAU',
   },
 ];
 
@@ -35,25 +33,26 @@ const AboutUs = () => {
   return (
     <Layout className="about-us-layout">
       <Content className="about-us-content">
-        <Row gutter={[16, 16]} className="about-us-section">
+        <Row gutter={[32, 32]} className="about-us-section">
           <Col span={24}>
             <motion.div
               initial={{ opacity: 0, y: -50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <Title level={2} className="about-us-title">
-                About Us
+              <Title level={1} className="about-us-title">
+                About TechWave Inc.
               </Title>
               <Paragraph className="about-us-text">
-                Innovatech Solutions is a cutting-edge technology company specializing in developing
-                and selling advanced gadgets and devices. Our latest product, Innovatech VR Pro,
-                offers state-of-the-art virtual reality experiences.
+                TechWave Inc. is at the forefront of developing innovative technology solutions. Our
+                latest product, TechWave XR, delivers an immersive augmented reality experience for
+                users. Our mission is to revolutionize the tech industry by providing
+                state-of-the-art devices that enhance everyday life.
               </Paragraph>
             </motion.div>
           </Col>
         </Row>
-        <Row gutter={[16, 16]} className="about-us-section">
+        <Row gutter={[32, 32]} className="about-us-section">
           <Col span={24} md={8}>
             <motion.div
               initial={{ opacity: 0, x: -50 }}
@@ -100,9 +99,9 @@ const AboutUs = () => {
             </motion.div>
           </Col>
         </Row>
-        <Row gutter={[16, 16]} className="about-us-section">
+        <Row gutter={[32, 32]} className="about-us-section">
           <Col span={24}>
-            <Title level={3} className="about-us-subtitle">
+            <Title level={2} className="about-us-subtitle">
               Meet Our Team
             </Title>
           </Col>

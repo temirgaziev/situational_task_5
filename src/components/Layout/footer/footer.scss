@@ -1,9 +1,7 @@
-/* src/Footer.css */
-
 .footer {
-  background: #001529;
-  color: #fff;
-  padding: 40px 20px;
+  background: #2c3e50;
+  color: #ecf0f1;
+  padding: 50px 20px;
 }
 
 .footer-content {
@@ -12,11 +10,12 @@
 }
 
 .footer-title {
-  color: #fff;
+  color: #ecf0f1;
 }
 
 .footer-text {
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(236, 240, 241, 0.85);
+  line-height: 1.6;
 }
 
 .footer-links {
@@ -25,26 +24,26 @@
 }
 
 .footer-links li {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .footer-links a {
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(236, 240, 241, 0.85);
   text-decoration: none;
 }
 
 .footer-links a:hover {
-  color: #1890ff;
+  color: #3498db;
 }
 
 .footer-icon {
-  font-size: 24px;
-  color: rgba(255, 255, 255, 0.85);
+  font-size: 28px;
+  color: rgba(236, 240, 241, 0.85);
   transition: color 0.3s;
 }
 
 .footer-icon:hover {
-  color: #1890ff;
+  color: #3498db;
 }
 
 .footer-bottom {
@@ -53,7 +52,7 @@
 }
 
 .footer-copyright {
-  color: rgba(255, 255, 255, 0.65);
+  color: rgba(236, 240, 241, 0.65);
 }
 
 @media (max-width: 768px) {
@@ -71,7 +70,7 @@
 
   .footer-links li {
     display: inline;
-    margin-right: 15px;
+    margin-right: 20px;
   }
 
   .footer-bottom {
