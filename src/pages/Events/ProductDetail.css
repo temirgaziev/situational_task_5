@@ -1,0 +1,62 @@
+/* Add any custom styles here */
+
+.carousel-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.custom-carousel-button {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+
+button {
+  margin-top: 20px;
+}
+
+iframe {
+  margin-top: 20px;
+}
+/* ProductDetail.css */
+
+/* Custom styles for carousel navigation buttons */
+
+
+/* Custom styles for carousel dots */
+.custom-dots {
+  margin-top: 10px; /* Add margin to separate dots from buttons */
+  text-align: center; /* Center-align the dots */
+}
+
+.custom-dots .slick-dots li {
+  display: inline-block; /* Display dots in a row */
+  margin: 0 5px; /* Add space between dots */
+}
+
+.custom-dots .slick-dots li button {
+  width: 10px; /* Set the width of individual dots */
+  height: 10px; /* Set the height of individual dots */
+  border-radius: 50%; /* Make dots circular */
+  background-color: #000; /* Set the background color of dots */
+  border: none; /* Remove border */
+  outline: none; /* Remove outline */
+  cursor: pointer; /* Set cursor to pointer */
+  transition: background-color 0.3s ease; /* Add transition for smoother hover effect */
+}
+
+.custom-dots .slick-dots li.slick-active button {
+  background-color: #333; /* Change color of active dot */
+}
