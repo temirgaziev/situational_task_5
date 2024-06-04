@@ -14,15 +14,16 @@ TechWave Inc. is at the forefront of developing innovative technology solutions.
 
 - [Video Link](https://drive.google.com/file/d/1BGSRrg6zSzCqF8oEuoEdxdATO18Bz1AE/view?usp=sharing)
 
-## Project Structure
+## Techical Assignment
 
 The project structure includes the following components:
+Create a web application to introduce and pre-order the new "TechWave XR". Your application should include the following features:
 
-- **Product Page:** Displays detailed information about Innovatech VR Pro, including photos, videos, and descriptions.
-- **Order Form:** Allows users to pre-order the VR headset by providing their name, email address, and desired quantity of devices. Data validation is implemented on the client side.
-- **News Feed:** Provides the latest news and updates about Innovatech VR Pro, such as release dates and important events.
-- **Contact Information:** Displays company contact information for communication with potential clients.
-- **Responsive Design:** The web application is designed to be responsive and display correctly on different devices.
+- **Product Page:** Display the main characteristics and features of TechWave XR. Include photos, videos, and product descriptions.
+- **Order Form:** Form for pre-ordering the AR device. Request the user's name, email address, and desired number of devices. Validate data on the client side.
+- **News Feed:** Section with the latest news about TechWave XR - release dates, updates, and other important events.
+- **Contact Information:** Section with company contact information for communicating with potential clients.
+- **Responsive Design:** Ensure your web application is responsive to display correctly on different devices.
 
 ## Technologies Used
 
